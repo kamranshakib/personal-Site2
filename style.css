@@ -1,0 +1,623 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "dana";
+    color: black;
+    /* transition: all 0.5s ease; */
+}
+.container{
+    padding: 50px;
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: 25% 70%;
+    gap: 20px;
+    /* color: whitesmoke; */
+    /* background-color: rgb(28, 1, 54); */
+    background: #ecf0f3;
+    position: relative;
+    /* background-color: rgba(255, 255, 255, 0.1); */
+
+}
+
+.card{
+    /* grid-area: card; */
+    color: black;
+    padding: 30px;
+    /* border: 5px solid black; */
+    display: flex;
+    flex-direction: column;
+    /* background-color: black; */
+    /* background: rgba(0, 0, 0, 0.551); */
+    /* background: transparent; */
+   
+    /* backdrop-filter: blur(10px); */
+    background: #ecf0f3;
+    box-shadow: -3px -3px 7px #ffffff,
+                3px 3px 5px #ceced1;
+    border-radius: 10px;
+
+}
+.card .content h2{
+    /* color: red; */
+    font-size: 30PX;
+    letter-spacing: 2PX;
+}
+.card .content h4{
+    /* color: red; */
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+.about{
+    /* grid-area: about; */
+        border-radius: 10px;
+        /* color: black; */
+    margin-left: 50px;
+    padding: 20px;
+    /* background: rgba(0, 0, 0, 0.551); */
+    background: #ecf0f3;
+    box-shadow: -3px -3px 7px #ffffff,
+                3px 3px 5px #ceced1;
+}
+img{
+    width: 30px;
+}
+.card .img{
+    width: 100%;
+    height: 40%;
+    border-radius: 10px;
+}
+.card .img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    
+}
+.card .content{
+    text-align: center;
+    margin: 20px 0;
+}
+.card .icon ul{
+display: flex;
+
+}
+ 
+.card .icon ul li{
+    
+    margin-left: 20px;
+    width: 50px;
+    height: 50px;
+    /* background-color: rgba(179, 166, 183, 0.153); */
+    background: #ecf0f3;
+    box-shadow: -3px -3px 7px #ffffff,
+                3px 3px 5px #ceced1;
+    list-style: none;
+    border-radius: 5px;
+    cursor: pointer;
+    
+
+}
+
+
+.card ul li:hover{
+    box-shadow: inset -3px -3px 7px #ffffff,
+    inset 3px 5px #ceced1;
+
+}
+.card .icon ul li img{
+    margin-top: 10px;
+}
+.card .icon{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+    margin-top: 10px;
+}
+
+.contact{
+    
+    width: 100%;
+    background-color: rgba(81, 79, 79, 0.246);
+    border-radius: 10px;
+    /* padding-top: 20px; */
+    margin-top: 20px;
+    background: #ecf0f3;
+    box-shadow: -3px -3px 7px #ffffff,
+                3px 3px 5px #ceced1;
+}
+.contact .phone{
+    display: flex;
+    /* justify-content: ; */
+    border-bottom: 1px solid rgba(104, 103, 103, 0.353);
+    margin: 10px;
+    padding-bottom: 10px;
+
+    
+}
+.contact .phone .phone_content{
+    margin-left: 50px;
+    color: black;
+}
+.contact .phone .phone_img{
+    text-align: center;
+    margin-top: 10px;
+    background: #ecf0f3;
+    box-shadow: -3px -3px 7px #ffffff,
+                3px 3px 5px #ceced1;
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+}
+.contact .phone .phone_img img{
+    margin-top: 10px;
+}
+.contact .email{
+    border-bottom: 1px solid rgba(104, 103, 103, 0.353);
+    display: flex;
+    margin: 10px;
+    padding-bottom: 10px;
+}
+.contact .email .email_content{
+    margin-left:50px ;
+   
+}
+.contact .email .email_img{
+    margin-top: 10px;
+    background: #ecf0f3;
+    box-shadow: -3px -3px 7px #ffffff,
+                3px 3px 5px #ceced1;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    border-radius: 5px;
+}
+.contact .email .email_img img{
+    margin-top: 10px;
+}
+
+.contact .location{
+    border-bottom: 1px solid rgba(104, 103, 103, 0.353);
+    display: flex;
+    margin: 10px;
+    padding-bottom: 10px;
+
+}
+.contact .location .location_content{
+    margin-left: 50px;
+    /* color: rgba(255, 255, 255, 0.541); */
+}
+.contact .location .location_img{
+    margin-top: 10px;
+    background: #ecf0f3;
+    box-shadow: -3px -3px 7px #ffffff,
+                3px 3px 5px #ceced1;
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+    text-align: center;
+}
+.contact .location .location_img img{
+    margin-top: 10px;
+}
+
+.contact .phone_img:hover {
+    box-shadow: inset -3px -3px 7px #ffffff,
+    inset 3px 5px #ceced1;
+}
+
+.contact .location_img:hover {
+    box-shadow: inset -3px -3px 7px #ffffff,
+    inset 3px 5px #ceced1;
+}
+
+.contact .email_img:hover {
+    box-shadow: inset -3px -3px 7px #ffffff,
+    inset 3px 5px #ceced1;
+}
+
+
+.about{
+    padding: 30px;
+}
+.about-content{
+    margin-top: 20px;
+    font-size: 18px;
+    /* color: rgba(255, 255, 255, 0.677); */
+    line-height: 25px;
+    letter-spacing: 1.5px;
+    /* font-family: sans-serif; */
+}
+/*  ----------------- about skils------------------------- */
+.about-skils{
+    /* border: 2px solid red; */
+    display: grid;
+    grid-template-columns: 40% 40%;
+    gap: 30px;
+    margin-top: 60px;
+    margin-left: 10%;
+}
+
+/* skiils html */
+.about-skils .html{
+    background: #ecf0f3;
+    box-shadow: -3px -3px 7px #ffffff,
+                3px 3px 5px #ceced1;
+    height: 200px;
+    display: flex;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.about-skils .html .content-html h4{
+    font-size: 20px;
+}
+
+.about-skils .html .content-html{
+    width: 90%px;
+    margin-left: 20px;
+    /* overflow: scroll; */
+}
+.about-skils .html .img-html img{
+width: 80px;
+}
+
+/* skiils css */
+
+.about-skils .css{
+    background: #ecf0f3;
+    box-shadow: -3px -3px 7px #ffffff,
+                3px 3px 5px #ceced1;
+    height: 200px;
+    display: flex;
+    padding: 20px;
+    border-radius: 10px;
+    /* margin-left: 50px; */
+    /* margin-left: 50px; */
+}
+
+.about-skils .css .content-css h4{
+    font-size: 20px;
+}
+
+.about-skils .css .content-css{
+    width: 270px;
+    margin-left: 20px;
+    /* overflow:scroll ; */
+}
+.about-skils .css .img-css img{
+width: 80px;
+}
+
+
+
+
+/* skiils javaScript */
+
+.about-skils .javascript{
+    background: #ecf0f3;
+    box-shadow: -3px -3px 7px #ffffff,
+                3px 3px 5px #ceced1;
+    height: 200px;
+    display: flex;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.about-skils .javascript .content-javascript h4{
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+.about-skils .javascript .content-javascript{
+    width: 270px;
+    margin-left: 20px;
+}
+.about-skils .javascript .img-javascript img{
+width: 80px;
+}
+
+
+
+
+
+/*  Skiils node-js */
+
+
+.about-skils .node-js{
+    background: #ecf0f3;
+    box-shadow: -3px -3px 7px #ffffff,
+                3px 3px 5px #ceced1;
+    height: 200px;
+    display: flex;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.about-skils .node-js .content-node h4{
+    font-size: 20px;
+}
+
+.about-skils .node-js .content-node{
+    width: 80%;
+    /* overflow: scroll; */
+    margin-left: 20px;
+}
+.about-skils .node-js .img-node img{
+width: 80px;
+}
+
+.i-Do{
+    margin-top: 40px;
+}
+
+
+
+@media (max-width:1600px) 
+{   
+    .about-skils{
+        grid-template-columns: 50% 50% ;
+        margin: 0;}
+}   
+
+
+@media (max-width:1400px) 
+{
+    .container{
+        grid-template-columns: 40% 60%;
+        height: 100vh;
+        margin: 0;
+        padding: 0;
+    }    
+    .about-skils{
+        grid-template-columns: 50% 50% ;
+        margin: 0;
+        /* padding: 0; */
+    
+
+    }
+    .about{
+        margin: 0;
+        padding: 40px;
+    }
+    .about-skils .node-js{
+        padding: 10px;
+        height: 170px;
+    }
+    .about-skils .node-js .img-node{
+        position: relative;
+        
+    }
+    .about-skils .node-js .img-node  img{
+        width: 50px;
+        position: absolute;
+    }
+    .about-skils .css .img-css  img{
+        width: 50px;
+    }
+    .about-skils .html .img-html  img{
+        width: 50px;
+        
+    }
+    .about-skils .node-js .content-node h4{
+        font-size: 1rem;
+        margin-left: 35px;
+    }
+    .about-skils .node-js .content-node p{
+        font-size: 14px;
+        margin-left: 35px;
+    }
+
+
+
+    /* -------------- */
+    .about-skils .html{
+        padding: 10px;
+        height: 170px;
+    }
+    .about-skils .html .img-html{
+        position: relative;
+        
+    }
+    .about-skils .html .img-html  img{
+        width: 50px;
+        position: absolute;
+    }
+   
+    
+    .about-skils .html .content-html h4{
+        font-size: 15px;
+        margin-left: 35px;
+    }
+    .about-skils .html .content-html p{
+        font-size: 14px;
+        margin-left: 35px;
+    }
+    /* ------------ */
+
+    .about-skils .css{
+        padding: 10px;
+        height: 170px;
+    }
+    .about-skils .css .img-css{
+        position: relative;
+        
+    }
+    .about-skils .css .img-css  img{
+        width: 50px;
+        position: absolute;
+    }
+   
+    
+    .about-skils .css .content-css h4{
+        font-size: 15px;
+        margin-left: 35px;
+    }
+    .about-skils .css .content-css p{
+        font-size: 14px;
+        margin-left: 35px;
+    }
+   
+   
+}
+
+
+
+/* ------------- */
+
+
+
+
+@media (max-width:1000px) 
+{
+    .container{
+        grid-template-columns: 100%;
+        height: 100vh;
+        margin: 0;
+        padding: 0;
+    }    
+    .about-skils{
+        grid-template-columns: 50% 50% ;
+        margin: 0;
+        /* padding: 0; */
+        /* overflow-y: scroll; */
+    
+
+    }
+    .about{
+        margin: 0;
+        padding: 40px;
+    }
+    .about-skils .node-js{
+        padding: 10px;
+        height: 170px;
+        overflow: scroll;
+    }
+    .about-skils .node-js .img-node{
+        position: relative;
+        
+    }
+    .about-skils .node-js .img-node  img{
+        width: 50px;
+        position: absolute;
+    }
+    .about-skils .css {
+        overflow-y: scroll;
+    }
+    .about-skils .css .img-css  img{
+        width: 50px;
+    }
+    .about-skils .html .img-html  img{
+        width: 50px;
+        
+    }
+    .about-skils .node-js .content-node h4{
+        font-size: 15px;
+        margin-left: 35px;
+    }
+    .about-skils .node-js .content-node p{
+        font-size: 14px;
+        margin-left: 35px;
+      
+    }
+
+
+
+    /* -------------- */
+    .about-skils .html{
+        padding: 10px;
+        height: 170px;
+        overflow-y: scroll;
+    }
+    .about-skils .html .img-html{
+        position: relative;
+        
+    }
+    .about-skils .html .img-html  img{
+        width: 50px;
+        position: absolute;
+    }
+   
+    
+    .about-skils .html .content-html h4{
+        font-size: 15px;
+        margin-left: 35px;
+    }
+    .about-skils .html .content-html p{
+        font-size: 15px;
+        margin-left: 35px;
+    }
+    /* ------------ */
+
+    .about-skils .css{
+        padding: 10px;
+        height: 170px;
+    }
+    .about-skils .css .img-css{
+        position: relative;
+        
+    }
+    .about-skils .css .img-css  img{
+        width: 50px;
+        position: absolute;
+    }
+   
+    
+    .about-skils .css .content-css h4{
+        font-size: 15px;
+        margin-left: 35px;
+    }
+    .about-skils .css .content-css p{
+        font-size: 15px;
+        margin-left: 35px;
+    }
+   
+   
+}
+
+
+
+
+
+/* ----------------------- */
+
+@media (max-width:500px) 
+{
+  
+    .container{
+        grid-template-columns: 100%;
+        width: 100%;
+        height: auto;
+        margin: 0;
+        padding: 0;
+        gap: 20px;
+        /* background: linear-gradient(45deg, rgb(115, 0, 69),rgb(255, 0, 212)); */
+        
+       
+    }   
+    .card{
+        margin: 20px;
+        border-radius: 0px 0px 0px 100px;
+        border-bottom: 2px solid rgba(252, 0, 210, 0.471);
+    } 
+    .about-skils{
+        
+        grid-template-columns: 100% ;
+        margin-top:50px;
+        
+    }
+    
+    .about{
+        margin: 10px;
+        border-radius: 0px 100px 0px 0px ;
+        border-top: 2px solid rgba(252, 0, 210, 0.471);
+     
+        
+    }
+}
+
+
+
+
