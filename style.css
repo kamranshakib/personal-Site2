@@ -618,6 +618,13 @@ width: 80px;
     }
 }
 
+@media (max-width:390px){
+    #gmail-390px{
+        font-size: 15px;
+    }
+}
+
+
 
 
 
